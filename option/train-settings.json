@@ -1,0 +1,23 @@
+{
+    "workers": 6,
+    "batch_size": 20,
+    "image_size": 256,
+    "num_epochs": 2000,
+    "lr": 0.0002,
+    "lr_decay_step": 100,
+    "lr_gammma": 0.95,
+    "tv_weight": 8e-07,
+    "adv_weight": 0.15,
+    "beta1": 0.5,
+    "ngpu": 1,
+    "IMG_WIDTH": 128,
+    "IMG_HEIGHT": 128,
+    "INPUT_CHANNELS": 3,
+    "OUTPUT_CHANNELS": 1,
+    "train_idname": "appendix3-flip-corner-v3-3rd-adv015-tv8e-7-beta05",
+    "training_datasets_folder_name": "datasets/v3-4cont-appendix3",
+    "valid_datasets_folder_name": "datasets/v3-data-cont-val-3rd",
+    "training_results_folder_name": "results",
+    "training_param_folder_name": "checkpoints",
+    "option_purpose": "156 images beta1"
+}
