@@ -1,5 +1,5 @@
 {
-    "workers": 6,
+    "workers": 2,
     "batch_size": 20,
     "image_size": 256,
     "num_epochs": 2000,
